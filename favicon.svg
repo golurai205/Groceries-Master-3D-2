@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="35%">
+      <stop offset="0%" stop-color="#fff3a8"/>
+      <stop offset="55%" stop-color="#ffb84d"/>
+      <stop offset="100%" stop-color="#c2185b"/>
+    </radialGradient>
+    <linearGradient id="basket" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fde68a"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </linearGradient>
+  </defs>
+  <!-- App icon background -->
+  <rect width="64" height="64" rx="14" fill="url(#bg)"/>
+
+  <!-- Floating grocery items -->
+  <text x="32" y="34" text-anchor="middle" font-size="30" font-family="system-ui, -apple-system">🍎</text>
+  <text x="14" y="22" text-anchor="middle" font-size="14">🍌</text>
+  <text x="50" y="24" text-anchor="middle" font-size="14">🥛</text>
+
+  <!-- Basket -->
+  <path d="M10 44 L54 44 L50 58 L14 58 Z" fill="url(#basket)" stroke="#7c2d12" stroke-width="2" stroke-linejoin="round"/>
+  <line x1="18" y1="44" x2="20" y2="58" stroke="#7c2d12" stroke-width="1.5"/>
+  <line x1="26" y1="44" x2="27" y2="58" stroke="#7c2d12" stroke-width="1.5"/>
+  <line x1="34" y1="44" x2="34" y2="58" stroke="#7c2d12" stroke-width="1.5"/>
+  <line x1="42" y1="44" x2="41" y2="58" stroke="#7c2d12" stroke-width="1.5"/>
+  <line x1="50" y1="44" x2="48" y2="58" stroke="#7c2d12" stroke-width="1.5"/>
+</svg>

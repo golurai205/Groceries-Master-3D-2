@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#ffe680"/>
+      <stop offset="40%" stop-color="#ff7e3d"/>
+      <stop offset="80%" stop-color="#c2185b"/>
+      <stop offset="100%" stop-color="#4a148c"/>
+    </radialGradient>
+  </defs>
+  <rect width="1080" height="1920" fill="url(#bg)"/>
+
+  <!-- Decorative grocery items -->
+  <g font-family="system-ui, -apple-system, 'Segoe UI Emoji', sans-serif" opacity="0.55">
+    <text x="120" y="280" font-size="140">🍎</text>
+    <text x="880" y="320" font-size="140">🍌</text>
+    <text x="180" y="1700" font-size="140">🥕</text>
+    <text x="820" y="1660" font-size="140">🧃</text>
+    <text x="80" y="1100" font-size="120">🧀</text>
+    <text x="900" y="1080" font-size="120">🍩</text>
+    <text x="100" y="620" font-size="120">🥛</text>
+    <text x="880" y="640" font-size="120">🍞</text>
+  </g>
+
+  <!-- Wordmark group -->
+  <g transform="translate(540 900)" text-anchor="middle" font-family="Nunito, system-ui, sans-serif" font-weight="900">
+    <text y="-30" font-size="170" fill="#4ade80" stroke="#14532d" stroke-width="10" paint-order="stroke fill"
+          filter="drop-shadow(0 10px 0 #14532d) drop-shadow(0 18px 18px rgba(0,0,0,0.45))">GROCERY</text>
+    <text y="140" font-size="155" fill="#fde047" stroke="#7c2d12" stroke-width="10" paint-order="stroke fill"
+          filter="drop-shadow(0 10px 0 #7c2d12) drop-shadow(0 18px 18px rgba(0,0,0,0.45))">MASTER</text>
+    <g transform="translate(0 280)">
+      <rect x="-110" y="-70" width="220" height="120" rx="32" fill="#ec4899" stroke="#831843" stroke-width="10"/>
+      <text y="22" font-size="90" fill="#fff" stroke="#831843" stroke-width="4" paint-order="stroke fill">3D</text>
+    </g>
+  </g>
+
+  <!-- Tagline -->
+  <text x="540" y="1340" text-anchor="middle" font-family="Nunito, system-ui, sans-serif" font-weight="800"
+        font-size="48" fill="#fff" opacity="0.95">Tap. Match. Master the pile!</text>
+</svg>

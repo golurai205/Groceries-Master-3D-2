@@ -1,0 +1,22 @@
+{
+  "name": "Grocery Master 3D",
+  "short_name": "Grocery Master",
+  "description": "A cozy triple-match 3D puzzle. Tap stacked grocery items, match 3 to clear, and become the ultimate Grocery Master!",
+  "id": "/?source=pwa",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#1a0f2e",
+  "theme_color": "#ffb84d",
+  "categories": ["games", "puzzle", "casual"],
+  "lang": "en",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

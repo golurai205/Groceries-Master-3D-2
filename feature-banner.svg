@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffd699"/>
+      <stop offset="50%" stop-color="#ff7e3d"/>
+      <stop offset="100%" stop-color="#c2185b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="500" fill="url(#bg)"/>
+
+  <!-- Wordmark left-aligned -->
+  <g transform="translate(60 260)" font-family="Nunito, system-ui, sans-serif" font-weight="900">
+    <text y="0" font-size="86" fill="#4ade80" stroke="#14532d" stroke-width="6" paint-order="stroke fill"
+          filter="drop-shadow(0 6px 0 #14532d)">GROCERY</text>
+    <text y="80" font-size="78" fill="#fde047" stroke="#7c2d12" stroke-width="6" paint-order="stroke fill"
+          filter="drop-shadow(0 6px 0 #7c2d12)">MASTER 3D</text>
+    <text y="135" font-size="26" fill="#fff" opacity="0.9">Triple Match Puzzle</text>
+  </g>
+
+  <!-- Right side stacked groceries -->
+  <g font-family="system-ui, -apple-system, 'Segoe UI Emoji', sans-serif">
+    <text x="720" y="200" font-size="170" filter="drop-shadow(0 8px 10px rgba(0,0,0,0.35))">🍎</text>
+    <text x="850" y="290" font-size="130" filter="drop-shadow(0 6px 8px rgba(0,0,0,0.35))">🍩</text>
+    <text x="640" y="340" font-size="120" filter="drop-shadow(0 6px 8px rgba(0,0,0,0.35))">🧀</text>
+    <text x="780" y="430" font-size="120" filter="drop-shadow(0 6px 8px rgba(0,0,0,0.35))">🥕</text>
+    <text x="580" y="430" font-size="110" filter="drop-shadow(0 6px 8px rgba(0,0,0,0.35))">🍌</text>
+    <text x="900" y="180" font-size="110" filter="drop-shadow(0 6px 8px rgba(0,0,0,0.35))">🧃</text>
+  </g>
+
+  <!-- Sparkles -->
+  <g fill="#fff" opacity="0.9">
+    <circle cx="180" cy="80" r="4"/>
+    <circle cx="280" cy="60" r="3"/>
+    <circle cx="420" cy="100" r="5"/>
+    <circle cx="60" cy="420" r="3"/>
+    <circle cx="380" cy="450" r="4"/>
+  </g>
+</svg>
